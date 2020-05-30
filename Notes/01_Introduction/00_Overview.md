@@ -1,18 +1,15 @@
-[Contents](../Contents.md) \| [Next (2 Working With Data)](../02_Working_with_data/00_Overview.md)
+[目录](../Contents.md) \| [Next (2 Working With Data)](../02_Working_with_data/00_Overview.md)
 
-## 1. Introduction to Python
+## 1. Python简介
 
-The goal of this first section is to introduce some Python basics from
-the ground up.  Starting with nothing, you'll learn how to edit, run,
-and debug small programs. Ultimately, you'll write a short script that
-reads a CSV data file and performs a simple calculation.
+第一部分的目标是介绍一些 Python 的基础知识。从零开始，你将学习如何编辑、运行和调试小程序。最终，你将编写一个简短的脚本，读取一个CSV数据文件并执行一个简单的计算。
 
 * [1.1 Introducing Python](01_Python.md)
-* [1.2 A First Program](02_Hello_world.md)
-* [1.3 Numbers](03_Numbers.md)
-* [1.4 Strings](04_Strings.md)
-* [1.5 Lists](05_Lists.md)
-* [1.6 Files](06_Files.md)
-* [1.7 Functions](07_Functions.md)
+* [1.2 第一个程序](02_Hello_world.md)
+* [1.3 数字](03_Numbers.md)
+* [1.4 字符串](04_Strings.md)
+* [1.5 列表](05_Lists.md)
+* [1.6 文件](06_Files.md)
+* [1.7 函数](07_Functions.md)
 
-[Contents](../Contents.md) \| [Next (2 Working With Data)](../02_Working_with_data/00_Overview.md)
+[目录](../Contents.md) \| [Next (2 Working With Data)](../02_Working_with_data/00_Overview.md)
