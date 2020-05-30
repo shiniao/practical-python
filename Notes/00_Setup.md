@@ -1,92 +1,60 @@
-# Course Setup and Overview
+# 课程设置和预览
 
-Welcome to Practical Python Programming!   This page has some important information
-about course setup and logistics.
+欢迎来到实用Python编程! 此页面包含有关课程设置和一些重要的预先准备工作。
 
-## Course Duration and Time Requirements
 
-This course was originally given as an instructor-led in-person
-training that spanned 3 to 4 days.  To complete the course in its
-entirety, you should minimally plan on committing 25-35 hours of work.
-Most participants find the material to be quite challenging without
-peeking at solution code (see below).
+## 课程周期和时间要求
 
-## Setup and Python Installation
+本课程最初是由讲师亲自授课，培训时间为3-4天。为了完成整个课程，你应该尽量花费小于25-35小时的时间来完成。大多数学员发现，在没有偷看solution代码的情况下，这些材料是相当有挑战性的（见下文）。
 
-You need nothing more than a basic Python 3.6 installation or newer.
-There is no dependency on any particular operating system, editor,
-IDE, or extra Python-related tooling.  There are no third-party
-dependencies.
+## 设置和安装Python
 
-That said, most of this course involves learning how to write scripts
-and small programs that involve data read from files.  Therefore, you
-need to make sure you're in an environment where you can easily work
-with files.  This includes using an editor to create Python programs
-and being able to run those programs from the shell/terminal.
+最低要求安装Python3.6或者更高。
+不依赖任何第三方操作系统，编辑器，IDE，或者其他与Python相关的工具。
+没有第三方依赖。
 
-You might be inclined to work on this course using a more interactive
-environment such as Jupyter Notebooks. **I DO NOT ADVISE THIS!**
-Although notebooks are great for experimentation, many of the
-exercises in this course teach concepts related to program
-organization.  This includes working with functions, modules, import
-statements, and refactoring of programs whose source code spans
-multiple files.  In my experience, it is hard to replicate this kind
-of working environment in notebooks.
+也就是说，这门课程的大部分内容都是学习如何编写脚本和涉及到从文件中读取数据的小程序。因此，你需要确保有一个可以轻松处理文件的环境，包括使用编辑器来创建Python程序，并能够从shell/终端运行这些程序。
 
-## Forking/Cloning the Course Repository
+你可能会倾向于使用更多的交互式环境来学习这门课程，比如 Jupyter Notebooks。我不建议这样做! 虽然笔记本是很好的实验工具，但本课程中的许多练习都是教授与程序组织相关的概念。这包括处理函数、模块、导入语句，以及重构跨越多个文件的程序。根据我的经验，在Jupyter Notebooks中很难复制这种工作环境。
 
-To prepare your environment for the course, I recommend creating your
-own fork of the course GitHub repo at
-[https://github.com/dabeaz-course/practical-python](https://github.com/dabeaz-course/practical-python).
-Once you are done, you can clone it to your local machine:
+## Forking/Cloning 课程仓库
 
+给课程准备环境, 我推荐你通过fork 课程的github仓库[https://github.com/shiniao/practical-python-cn](https://github.com/shiniao/practical-python-cn) 来创建自己的。 
+完成之后，你可以将其clone到本地机器上：
 ```
-bash % git clone https://github.com/yourname/practical-python
-bash % cd practical-python
+bash % git clone https://github.com/yourname/practical-python-cn
+bash % cd practical-python-cn
 bash %
 ```
 
-Do all of your work within the `practical-python/` directory.  If you
-commit your solution code back to your fork of the repository, it will
-keep all of your code together in one place and you'll have a nice
-historical record of your work when you're done.
+在 `practical-python/`目录下完成所有的工作。如果你提交了自己的 solution 代码到仓库中，所有的代码将会保存在同一个地方，当你完成后，就有一个很好的历史提交记录。
 
-If you don't want to create a personal fork or don't have a GitHub account,
-you can still clone the course directory to your machine:
+如果你不想创建自己的仓库或者没有 Github 账号，你仍然可以clone课程到你自己的机器上：
 
 ```
-bash % git clone https://github.com/dabeaz-course/practical-python
-bash % cd practical-python
+bash % git clone https://github.com/shiniao/practical-python-cn
+bash % cd practical-python-cn
 bash %
 ```
 
-With this option, you just won't be able to commit code changes except
-to the local copy on your machine.
+用这种方法，除了对计算机上的本地副本进行更改外，您将无法提交代码更改。
 
-## Coursework Layout
+## 课程安排
 
-Do all of your coding work in the `Work/` directory.  Within that
-directory, there is a `Data/` directory.  The `Data/` directory
-contains a variety of datafiles and other scripts used during the
-course. You will frequently have to access files located in `Data/`.
-Course exercises are written with the assumption that you are creating
-programs in the `Work/` directory.
+在 `Work/`目录下完成所有代码工作。在该目录下，有一个`Data/`目录。`Data/`目录包含各种数据文件和课程中脚本用到的数据。
+你可能要经常访问位于`数据/`中的文件。课程中的练习题假设你在`Work/`目录下创建代码。
 
-## Course Order
+## 课程顺序
 
-Course material should be completed in section order, starting with
-section 1.  Course exercises in later sections build upon code written in
-earlier sections.  Many of the later exercises involve minor refactoring
-of existing code.
+课程教材应从第1节开始，按章节顺序完成。后面各节的课程练习是在前面各节编写的代码基础上进行的。后面的许多练习涉及到对现有代码的轻微重构。
 
-## Solution Code
 
-The `Solutions/` directory contains full solution code to selected
-exercises.  Feel free to look at this if you need a hint.  To get the
-most out of the course however, you should try to create your own
-solutions first.
 
-[Contents](Contents.md)
+## Solution 代码
+
+`Solutions/`目录中包含了所选习题的完整解法代码。如果你需要提示，请随意查看。然而，要想在课程中获得最大的收益，你应该先尝试着自己创建解决方案。
+
+[目录](Contents.md)
 
 
 
