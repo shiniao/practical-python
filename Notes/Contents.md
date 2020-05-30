@@ -1,19 +1,19 @@
-# Practical Python Programming
+# 实用Python编程
 
-## Table of Contents
+## 目录
 
-* [0. Course Setup (READ FIRST!)](00_Setup.md)
-* [1. Introduction to Python](01_Introduction/00_Overview.md)
-* [2. Working with Data](02_Working_with_data/00_Overview.md)
-* [3. Program Organization](03_Program_organization/00_Overview.md)
-* [4. Classes and Objects](04_Classes_objects/00_Overview.md)
-* [5. The Inner Workings of Python Objects](05_Object_model/00_Overview.md)
-* [6. Generators](06_Generators/00_Overview.md)
-* [7. A Few Advanced Topics](07_Advanced_Topics/00_Overview.md)
-* [8. Testing, Logging, and Debugging](08_Testing_debugging/00_Overview.md)
-* [9. Packages](09_Packages/00_Overview.md)
+* [0. 课程设置 (读它!)](00_Setup.md)
+* [1. Python简介](01_Introduction/00_Overview.md)
+* [2. 与数据打交道](02_Working_with_data/00_Overview.md)
+* [3. 程序组织](03_Program_organization/00_Overview.md)
+* [4. 类和对象](04_Classes_objects/00_Overview.md)
+* [5.Python对象的内部工作](05_Object_model/00_Overview.md)
+* [6. 生成器](06_Generators/00_Overview.md)
+* [7. 一些高级主题](07_Advanced_Topics/00_Overview.md)
+* [8. 测试，日志，调试](08_Testing_debugging/00_Overview.md)
+* [9. 包](09_Packages/00_Overview.md)
 
-[Home](..)
+[主页](..)
 
 
 
